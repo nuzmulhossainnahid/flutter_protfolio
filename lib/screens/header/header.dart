@@ -17,7 +17,7 @@ class StickyHeader extends StatelessWidget {
       decoration: BoxDecoration(
         image: DecorationImage(
           colorFilter: ColorFilter.mode(Colors.black45, BlendMode.darken),
-          image: AssetImage("assets/hedar_bg.jpg"),
+          image: AssetImage("assets/bg1.jpg"),
           fit: BoxFit.cover,
         ),
       ),
@@ -60,8 +60,7 @@ class StickyHeader extends StatelessWidget {
               children: [
                 Expanded(
                   child: Text(
-                    "Flutter Developer || Full Stack Developer || UX/UI Expart"
-                        .toUpperCase(),
+                    "Flutter Developer || Full Stack Developer".toUpperCase(),
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 18,
